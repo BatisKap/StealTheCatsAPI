@@ -1,0 +1,6 @@
+services:
+  stealthecatsapi:
+    image: ${DOCKER_REGISTRY-}stealthecatsapi
+    build:
+      context: .
+      dockerfile: StealTheCatsAPI/Dockerfile
